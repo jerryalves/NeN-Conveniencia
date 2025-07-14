@@ -23,6 +23,10 @@ main {
 	padding: 40px 20px;
 }
 
+h4 {
+	margin: 2vh;
+}
+
 .logo {
 	max-width: 220px;
 	margin-bottom: 30px;
@@ -44,7 +48,8 @@ main {
 	transition:
 		background-color 1100ms ease,
 		box-shadow 1100ms ease,
-		transform 600ms ease; /* transform mais rápido */
+		transform 600ms ease;
+	/* transform mais rápido */
 }
 
 .button:hover {
@@ -58,16 +63,16 @@ main {
 	margin-right: 2vh;
 }
 
-#email{
+#email {
 	max-height: 2.7vh;
 	margin-right: 2vh;
 }
 
-iframe{
+iframe {
 	border-radius: 16px;
 }
 
-iframe:hover{
+iframe:hover {
 	transform: scale(1.1);
 	transition: 600ms;
 }
@@ -110,7 +115,7 @@ footer a:hover {
 	color: #ffffff;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1030px) {
 
 	main,
 	footer {
@@ -132,9 +137,9 @@ footer a:hover {
 		max-height: 2vh;
 	}
 
-	#email{
-	max-height: 1.5vh;
-}
+	#email {
+		max-height: 1.5vh;
+	}
 
 }
 
@@ -143,7 +148,6 @@ footer a:hover {
 		font-size: 60%
 	}
 }
-
 
 /* Desenvolvido por Jerry Leonardo */
 
@@ -179,7 +183,7 @@ summary {
 	list-style: none;
 	cursor: pointer;
 	position: relative;
-	padding-right: 2vh;
+	padding-right: 2.5vh; 
 	/* espaço para a seta */
 	padding-left: 0.5vh;
 	/* para afastar o details do copy*/
